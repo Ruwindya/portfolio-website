@@ -1,0 +1,116 @@
+@media screen and (max-width:1400px) {
+    #profile{
+        height: 85vh;
+        margin-bottom: 6rem;
+
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #desktop_nav{
+        display: none;
+    }
+    #responsive-nav{
+        display: flex;
+    }
+   #experince,.experience-details-container,.about-details-container{
+        margin-top:2rem;
+        padding: 1rem;
+
+    }
+    #profile,.section-container{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%
+    }
+    .section-pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container{
+        margin-top: 0;
+        display: block;
+        padding: 0.5rem;
+    }
+    .profile{
+        height: 275px;
+    }
+    #about{
+        margin-top: 10rem;
+    }
+    .about-pic{
+        width: 275px;
+        height: 275px;
+
+    }
+}
+
+@media screen and (max-width:600px){
+    #contact,footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container,.contact-info-upper-container,.btn-container{
+        flex-wrap: wrap;
+
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p,.nav-links li a{
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section-pic-container,.section_pic-container{
+        width: auto;
+        height: 70vw;
+        justify-content: center;
+    }
+    .section_text_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+
+}
